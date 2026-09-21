@@ -1,0 +1,141 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  height: var(--header-height);
+  background-color: var(--color-bg-page);
+  border-bottom: 1px solid var(--color-border-light);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 80px;
+  width: 100%;
+}
+
+.logoSection {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.logoIcon {
+  width: 34px;
+  height: 34px;
+}
+
+.logoText {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: var(--color-primary);
+}
+
+.searchPill {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--color-border-medium);
+  border-radius: var(--radius-full);
+  padding: 8px 8px 8px 16px;
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow var(--transition-normal);
+  cursor: pointer;
+  background-color: var(--color-bg-surface);
+}
+
+.searchPill:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.searchSegment {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  padding: 0 12px;
+  color: var(--color-text-primary);
+}
+
+.divider {
+  width: 1px;
+  height: 24px;
+  background-color: var(--color-border-medium);
+}
+
+.searchSegmentMuted {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-regular);
+  padding: 0 12px;
+  color: var(--color-text-secondary);
+}
+
+.searchIconButton {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8px;
+}
+
+.userNav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.hostLink {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  padding: 10px 14px;
+  border-radius: var(--radius-xl);
+  transition: background-color var(--transition-fast);
+}
+
+.hostLink:hover {
+  background-color: var(--color-bg-hover);
+}
+
+.globeButton {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color var(--transition-fast);
+}
+
+.globeButton:hover {
+  background-color: var(--color-bg-hover);
+}
+
+.userMenuPill {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border: 1px solid var(--color-border-medium);
+  border-radius: var(--radius-xl);
+  padding: 5px 5px 5px 12px;
+  transition: box-shadow var(--transition-fast);
+  cursor: pointer;
+  background-color: var(--color-bg-surface);
+}
+
+.userMenuPill:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.userAvatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: var(--color-text-secondary);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

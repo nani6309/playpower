@@ -1,0 +1,13 @@
+.listingPageWrapper {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: 0 80px 80px 80px;
+}
+
+.mainGrid {
+  display: grid;
+  grid-template-columns: 1fr 370px;
+  gap: 80px;
+  margin-top: 48px;
+  align-items: start;
+}
